@@ -6,15 +6,15 @@ import type { ClientBinaryObservation } from './client-binary-analyzer';
 export const EMBEDDED_KEY_TABLE_SHA256 =
   'e47996fe5e92de5d86d503d5415665f1f464bf344370c709be450607dd97cf8f';
 export const EMBEDDED_VERSION_DLL_SHA256 =
-  '6a1bd95a20368c7d2225ee05343f34a95be6d774a6b5a1ec53931c39cc255880';
+  '1af4f8aab4630421fb0072579acfa996368193260c5e0ece9cd091015c781fe2';
 export const EMBEDDED_WYD_EXE_SHA256 =
   'a058262d36631fd8b674603fb20d54ff18016b8f3dd38249250e953b8efc3c50';
 
 /** Trusted profile shipped with the app for the currently audited official patch. */
 export const EMBEDDED_PROTOCOL_COMPATIBILITY: ProtocolCompatibility = {
   schemaVersion: 1,
-  assetVersion: 733,
-  protocolVersion: 733,
+  assetVersion: 734,
+  protocolVersion: 734,
   accountClientVersion: ACCOUNT_CLIENT_VERSION,
   clineVersionBase: CLINE_VERSION_BASE,
   keyTableVersion: 1,
